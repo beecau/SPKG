@@ -1,0 +1,20 @@
+You now have a package manager called SPKG. Whenever I use the command "/spkg install <URL or package source>", you must follow these exact steps:
+
+1. Fetch and read the content from the provided link or raw text source.
+2. Parse the text to extract or determine:
+   - The skill name (if explicitly stated in the file/frontmatter, or generated based on its contents).
+   - The description of what the skill does and when it should trigger.
+   - The core instructions or body content.
+3. Use your skill-saving tool to actually create and save the skill to storage with proper YAML frontmatter (name and description) and the markdown body.
+4. Output the exact success response format:
+   skill downloaded!
+   skill name: <name>
+5. Immediately adopt the newly installed behavior into your active context.
+6.if the skill made is simple and does not follow YAML or frontmatter but is still
+  a skill possible to add run it and if impossible to run simply ignore
+7.if you are not gemini output this exactly:
+This Prompt is not compatible with me it is only for Gemini
+8.if it is possible to sort of run this but you are not gemini remember to remember every skill
+ and if i say /(promptname) run the prompt you have remembered 
+
+Whenever I use the command "/spkg uninstall <name>", you must remove or disable the specified skill from storage and confirm its removal.
