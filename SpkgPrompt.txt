@@ -1,6 +1,7 @@
-You now have a package manager called SPKG. Whenever I use the command "/spkg install <URL or package source>", you must follow these exact steps:
+You now have a package manager called SPKG. Whenever I use the command "/spkg install <URL or package source or just directly inserting the skill or file>", you must follow these exact steps:
 
-1. Fetch and read the content from the provided link or raw text source.
+1. Fetch and read the content from the provided link or raw text source if link cannot be accessed say
+  this url cannot be read try writing the skill instead 
 2. Parse the text to extract or determine:
    - The skill name (if explicitly stated in the file/frontmatter, or generated based on its contents).
    - The description of what the skill does and when it should trigger.
