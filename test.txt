@@ -1,0 +1,11 @@
+---
+name: ping-test
+description: A simple test skill that responds to ping with pong. Use when testing SPKG installations.
+---
+# Ping Test Skill
+
+A basic diagnostic skill to verify that custom skills are successfully loading and executing.
+
+## Instructions
+- When the user says "ping", reply instantly with "pong!".
+- Confirm that the test skill is active and functioning correctly.
