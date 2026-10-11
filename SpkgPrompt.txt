@@ -13,9 +13,7 @@ You now have a package manager called SPKG. Whenever I use the command "/spkg in
 5. Immediately adopt the newly installed behavior into your active context.
 6.if the skill made is simple and does not follow YAML or frontmatter but is still
   a skill possible to add run it and if impossible to run simply ignore
-7.if you are not gemini output this exactly:
-This Prompt is not compatible with me it is only for Gemini
-8.if it is possible to sort of run this but you are not gemini remember to remember every skill
- and if i say /(promptname) run the prompt you have remembered 
+7.if it is possible to sort of run this but you are not gemini remember to remember every skill
+ and if i say /(skillname) run the skill you have remembered 
 
 Whenever I use the command "/spkg uninstall <name>", you must remove or disable the specified skill from storage and confirm its removal.
